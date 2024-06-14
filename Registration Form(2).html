@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+        <div class="main">
+        <div class="register">
+     <form>
+     <h1>Register Here</h1>
+     <label for="fname"><i>First Name :</i></label>
+     <br>
+     <input type="text" name="fname" id="fname" placeholder="Enter your first name">
+     <br><br>
+     <label for="lname"><i>Last Name :</i></label>
+     <br>
+     <input type="text" name="lname" id="lname" placeholder="Enter your last name">
+     <br><br>
+     <label for="email"><i>Email :</i</label>
+     <br>
+     <input type="Email" name="Email" id="email" placeholder="Enter your valid Email">
+     <br><br>
+     <label for="name"><i>Gender :</i></label>
+     <br>
+    <input type="radio" name="Gender" id="male">
+    <span id="Male">Male</span>
+    <input type="radio" name="Gender" id="female">
+    <span id="Female">Female</span>
+    <br><br>
+    <label for="city"><i>City :</i></label>
+    <br>
+    <input type="text" name="City" placeholder="Enter your city" id="city">
+    <br><br>
+    <label for="contact"><i>Contact # :</i></label>
+    <br>
+    <input type="contact" placeholder="Enter your valid number" id="contact">
+    <br><br>
+    <label for="age"><i>Your Age :</i></label>
+    <br>
+    <input type="age" name="Age" id="age" placeholder="How old are you?">
+    <br><br>
+    <label for="name"><i>Select Language :</i></label>
+    <br>
+    <input type="Checkbox" name="lang" id="English">
+    <span id="English">English</span>
+    <input type="Checkbox" name="lang" id="Urdu">
+    <span id="Urdu">Urdu</span>
+    <br><br>
+    <label for="password"><i>Password :</i></label>
+    <br>
+    <input type="password" name="Password" placeholder="Enter your valid password" id="password">
+    <br><br>
+    <input type="submit" value="Submit" onclick="submit_form()" name="Submit" id="Submit">
+    </form>
+<script>
+function submit_form(){
+        window.location.href = "Online Shopping Website.html";
+}
+</script>
+</body>
+</html>

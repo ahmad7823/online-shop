@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+h1 {
+    text-align: center;
+}
+input{
+    outline: none;
+    padding-left: 10px;
+}
+.main{
+    width: 450px;
+    height: 600px;
+    background-color: rgb(0,0,0,0.7);
+    margin: 1% auto auto auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.register{
+    width: 300px;
+    height: 300px;
+    margin: 1px auto auto auto;
+    padding-top: 1px;
+}
+
+#Submit{
+    width: 100px;
+    padding: 7px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border: none;
+}
+
